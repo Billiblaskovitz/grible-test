@@ -11,6 +11,7 @@ public class GribleUsageTest extends BaseTest {
         Products products = new Products();
 
         products.open();
+        products.add("Product");
 
 
         Thread.sleep(5000);
