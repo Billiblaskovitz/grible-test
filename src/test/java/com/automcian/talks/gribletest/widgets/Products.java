@@ -1,4 +1,4 @@
-package com.automcian.talks.gribletest;
+package com.automcian.talks.gribletest.widgets;
 
 import com.codeborne.selenide.Selenide;
 
