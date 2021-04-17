@@ -11,6 +11,9 @@ public class Products {
 
     public void add(String name) {
         $("#btn-add-product").click();
-        new Dialog().setFor("Name", name);
+
+        new Dialog()
+                .setFor("Name", name)
+                .setFor("Path", name);
     }
 }
